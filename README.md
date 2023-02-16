@@ -26,7 +26,6 @@ window.addEventListener("message", (e) => {
       if (e.data.restore) {
         // restore live mint
       }
-      loop(); // make sure we draw again
       break;
     default:
       break;
@@ -36,4 +35,4 @@ window.addEventListener("message", (e) => {
 
 ## Sending Data and Information to Cognitive Canvas
 
-Look in [cc.js]('./cc.js') for all the functions you can use to send data and other information back to Cognitive Canvas.
+Look in [cc.js](./cc.js) for all the functions you can use to send data and other information back to Cognitive Canvas.
